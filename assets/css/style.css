@@ -1,97 +1,160 @@
-*,*::before,*::after{
-    box-sizing: border-box;
-    margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
- }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
- /* Variables */
+/* Variables */
 
- :root{
-    --lightBlue: #3288CC;
-    --orange: #FFA72F;
-    --white: #F3F3F3;
-    --beige: #F0ECDE;
-    --grey: #707070;
-    --darkBlue: #455475;
+:root {
+  --lightBlue: #3288cc;
+  --orange: #ffa72f;
+  --white: #f3f3f3;
+  --beige: #f0ecde;
+  --grey: #707070;
+  --darkBlue: #455475;
 
-    --mellemSection: 2.5rem;
-    --mellemElementer: 1.25rem; 
- }
+  --mellemSection: 2.5rem;
+  --mellemElementer: 1.25rem;
+}
 
- /* Generel styling */
+/* Generel styling */
 
- h1{ 
-    font-size: 2rem;
- }
+h1 {
+  font-size: 2rem;
+}
 
- h2{
-    font-size: 1.5rem;
-    color: var(--lightBlue);
- }
+h2 {
+  font-size: 1.5rem;
+  color: var(--lightBlue);
+}
 
- p{
-    font-size: 1rem;
-    color: var(--grey);
-    line-height: 1.5rem;
- }
+p {
+  font-size: 1rem;
+  color: var(--grey);
+  line-height: 1.5rem;
+}
 
+/* header start */
+.navbar {
+  background-color: var(--lightBlue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+/* header slut */
 
- /* header start */
-    .navbar{
-        background-color: var(--lightBlue);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-    }
- /* header slut */
+/* footer start */
+.soMe {
+  background-color: var(--lightBlue);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
- /* footer start */
-    .soMe {
-        background-color: var(--lightBlue);
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+.soMe p {
+  color: var(--white);
+  font-weight: bold;
+}
 
-    .soMe p{
-        color: var(--white);
-        font-weight: bold;
-    }
+.footerIcons {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+/* footer slut */
 
-    .footerIcons{
-        font-size: 30px;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-    }
- /* footer slut */
+/* index start */
+/* index slut */
 
- /* index start */
- /* index slut */
+/* program start */
+/* program slut */
 
+/* spillesteder start */
+/* spillesteder slut */
 
- /* program start */
- /* program slut */
+/* nyheder start */
+/* nyheder slut */
 
+/* praktisk information start */
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  color: var(--darkBlue);
+}
+.praktiskInf {
+  background-color: var(--beige);
+  border-top-right-radius: 60px;
+  padding-bottom: 30px;
+}
+.praktiskInf p {
+  padding-top: 40px;
+  margin: 0px 30px 0 30px;
+}
 
- /* spillesteder start */
- /* spillesteder slut */
+.praktiskKnap {
+  background-color: #e26c1b;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 13px 35px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 2px;
+}
+.praktiskKnap a {
+  text-decoration: none;
+  color: var(--white);
+}
+h2 {
+  margin: 0px 30px 0 30px;
+  margin-bottom: 30px;
+}
 
+.PraktisAccordion {
+  background-color: var(--lightBlue);
+  color: var(--white);
+  padding: 18px;
+  width: 80%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
 
- /* nyheder start */
- /* nyheder slut */
+  margin-left: 35px;
+}
 
- /* praktisk information start */
- /* praktisk information slut */
+.accordionIndhold {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
 
- /* kontakt start */
- /* kontakt slut */
+.PraktisAccordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
 
- /* sponsorater start */
- /* sponsorater slut */
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 
+/* praktisk information slut */
 
+/* kontakt start */
+/* kontakt slut */
+
+/* sponsorater start */
+/* sponsorater slut */
