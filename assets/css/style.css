@@ -83,26 +83,48 @@ body{
 
 
  /* nyheder start */
+
+ .nyhederBackground {
+   background-color: beige;
+   padding-bottom: 2rem;
+ }
  #nyhedsIntro  {
    text-align: center;
+   padding: 20px;
  }
 
  .nyhedsSection {
    margin: 2rem;
-   
+   background-color: white;
+   border-radius: 2rem;
  }
+
+ .nyhedsSection i, .nyhedsSection p {
+   padding: 1rem;
+ }
+
+
  .nyhedsSection .nyhedsDate {
    color: var(--lightBlue);
  }
 
  .nyhedsSection img {
    object-fit: cover;
-   height: 15rem;
+   height: 100%;
    width: 100%;
+   border-radius: 2rem 2rem 0 0;
  }
 
  .nyhedsSection i {
    color: var(--lightBlue);
+ }
+
+ .nyhedsBrev {
+   margin: 2rem;
+ }
+
+ .nyhedsBrev p {
+   padding-top: 1rem;
  }
 
  /* nyheder slut */
