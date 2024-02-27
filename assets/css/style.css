@@ -92,6 +92,61 @@ body{
  /* kontakt slut */
 
  /* sponsorater start */
+ .sponsoratH1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--darkBlue);
+   padding: 3rem;
+ }
+
+ .sponsoratBackground1 {
+   background: var(--beige);
+   border-radius: 0px 100px 0px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 5rem;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   margin-bottom: 60px;
+ }
+
+ .sponsoratBackground1 img {
+   width: 50%;
+ }
+
+ .sponsoratBackground2 {
+   background: var(--beige);
+   border-radius: 100px 0px 100px 0px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   margin-bottom: 60px;
+ }
+
+ .sponsoratBackground2 h2, ul, li {
+   margin: 10px;
+ }
+
+ .sponsoratBackground2 ul {
+   margin-top: 1.5rem;
+ }
+
+ .sponsoratBackground2 h2 {
+   padding: 0 2rem;
+ }
+
+ .sponsoratBackground2 p {
+   margin: 0 40px;
+ }
+
+ .sponsoratBackground2 article {
+   margin-bottom: 2rem;
+ }
  /* sponsorater slut */
 
 
