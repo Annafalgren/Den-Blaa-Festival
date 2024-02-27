@@ -83,6 +83,28 @@ body{
 
 
  /* nyheder start */
+ #nyhedsIntro  {
+   text-align: center;
+ }
+
+ .nyhedsSection {
+   margin: 2rem;
+   
+ }
+ .nyhedsSection .nyhedsDate {
+   color: var(--lightBlue);
+ }
+
+ .nyhedsSection img {
+   object-fit: cover;
+   height: 15rem;
+   width: 100%;
+ }
+
+ .nyhedsSection i {
+   color: var(--lightBlue);
+ }
+
  /* nyheder slut */
 
  /* praktisk information start */
