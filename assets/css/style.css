@@ -89,6 +89,91 @@ body{
  /* praktisk information slut */
 
  /* kontakt start */
+   .kontaktOplysninger i{
+      margin-bottom: 1rem;
+   }
+
+   .kontaktOplysninger{
+      display: flex;
+      margin-top: var(--mellemSection);
+      flex-direction: column;
+      margin-left : 25%;
+   }
+
+   .kontaktOverskrift {
+      display: flex;
+      justify-content: center;
+      margin-top: var(--mellemSection);
+   }
+
+   .kontaktOplysningerHome, .kontaktOplysningerPhone, .kontaktOplysningerMail{
+      display: flex;
+      gap: 1rem;
+   }
+
+   /* kort */
+   .kort{
+      margin-top: var(--mellemSection);
+   }
+
+   .kort p{
+      margin-top: var(--mellemElementer);
+   }
+
+   /* frivillig */
+   .frivillig{
+      margin-top: var(--mellemSection);
+   }
+
+   .frivillig p{
+      margin-top: var(--mellemElementer);
+      margin-bottom: var(--mellemElementer);
+      ;
+   }
+
+   .formularFrivillig{
+      color: var(--lightBlue);
+   }
+
+   .formularFrivillig input{
+      border-radius: 10px;
+      padding: 5px;
+   }
+
+   .formularFrivillig input#besked{
+      padding: 2rem;
+   }
+
+ /* formular knap */
+   .formularKnap{
+      background-color: var(--orange);
+      border-radius: 20px;
+      border: none;
+      color: var(--white);
+      padding: 13px 35px;
+      display: inline-block;
+      font-size: 1rem;
+      margin: 30px 2px;
+   }
+
+   .formularKnap a{
+      text-decoration: none;
+      color: var(--white);
+   }
+
+   .formularKnapWrapper{
+      display: flex;
+      justify-content: center;
+   }
+
+   .formularFrivillig label{
+      display: block;
+   }
+
+   .formularFrivillig input{
+      border-width: .5px;
+   }
+
  /* kontakt slut */
 
  /* sponsorater start */
