@@ -155,7 +155,7 @@ h2 {
   content: "\2796"; /* Unicode */
 }
 /* css til 1 entrypoint */
-.CtaimgProgram {
+.ctaProgram {
   background-image: url(../img/entryPoints/EntryProgram.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ h2 {
 
 /* css til 2 entry point */
 
-.Cta2 {
+.ctaSpillesteder {
   background-image: url(../img/entryPoints/EntrySpillesteder.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@ h2 {
 }
 
 /* css til 3 entrypoint */
-.Cta3 {
+.ctaNyheder {
   background-image: url(../img/entryPoints/entryNyheder.jpg);
   background-position: center;
   background-repeat: no-repeat;
