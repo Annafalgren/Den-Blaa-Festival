@@ -134,9 +134,10 @@ h2 {
 
 .accordionIndhold {
   padding: 0 18px;
-  background-color: white;
+  background-color: var(--beige);
   display: none;
   overflow: hidden;
+  border: 2rem;
 }
 
 .PraktisAccordion:after {
