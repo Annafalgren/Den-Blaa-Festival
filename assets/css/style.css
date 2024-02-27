@@ -89,7 +89,6 @@ h1 {
   text-align: center;
   margin-bottom: 40px;
   margin-top: 40px;
-  color: var(--darkBlue);
 }
 .praktiskInf {
   background-color: var(--beige);
@@ -125,18 +124,19 @@ h2 {
   color: var(--white);
   padding: 18px;
   text-align: left;
-  border: none;
-  outline: none;
   transition: 0.4s;
-
   width: 85%;
   margin-bottom: 5px;
+  border-style: solid;
+  border-color: #333333;
+  border-width: thin;
 }
 
 .accordionIndhold {
   background-color: var(--beige);
   display: none;
   overflow: hidden;
+  background-color: #eeede8;
 }
 .accordionIndhold p {
   padding-top: 0px;
@@ -145,14 +145,13 @@ h2 {
 .PraktisAccordion:after {
   content: "\02795"; /* Unicode */
   font-size: 13px;
-  color: var(--white);
+
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
   content: "\2796"; /* Unicode */
-  color: var(--white);
 }
 
 /* praktisk information slut */
