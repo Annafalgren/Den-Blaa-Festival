@@ -1,0 +1,72 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* Variables */
+
+ :root{
+    --lightBlue: #3288CC;
+    --orange: #FFA72F;
+    --white: #F3F3F3;
+    --beige: #F0ECDE;
+    --grey: #707070;
+    --darkBlue: #455475;
+
+    --mellemSection: 2.5rem;
+    --mellemElementer: 1.25rem; 
+ }
+
+ /* Generel styling */
+
+ h1{ 
+    font-size: 2rem;
+ }
+
+ h2{
+    font-size: 1.5rem;
+    color: var(--lightBlue);
+ }
+
+ p{
+    font-size: 1rem;
+    color: var(--grey);
+    line-height: 1.5rem;
+ }
+
+
+ /* header start */
+ /* header slut */
+
+ /* footer start */
+ /* footer slut */
+
+ /* index start */
+ /* index slut */
+
+
+ /* program start */
+ /* program slut */
+
+
+ /* spillesteder start */
+ /* spillesteder slut */
+
+
+ /* nyheder start */
+ /* nyheder slut */
+
+ /* praktisk information start */
+ /* praktisk information slut */
+
+ /* kontakt start */
+ /* kontakt slut */
+
+ /* sponsorater start */
+ /* sponsorater slut */
+
+
