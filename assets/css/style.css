@@ -78,6 +78,50 @@ p {
 /* index slut */
 
 /* program start */
+  /* torsdag start */
+  .torsdagH1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--darkBlue);
+    text-decoration: underline;
+  }
+  
+  .torsdagBackground1 {
+    background: var(--beige);
+    border-radius: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    margin-bottom: 60px;
+  }
+
+  .torsdagBackground2 {
+    background: var(--beige);
+    border-radius: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    margin-bottom: 60px;
+  }
+
+  .torsdagNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .torsdagNav i {
+    font-size: 25px;
+  }
+  /* torsdag slut */
 /* program slut */
 
 /* spillesteder start */
