@@ -7,7 +7,15 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+
 }
+
+p {
+  margin: 2rem;
+}
+
+
+
 
 /* Variables */
 
@@ -25,9 +33,32 @@ body {
 
 /* Generel styling */
 
+.backgroundBeige {
+  background: var(--beige);
+  border-radius: 0px 100px 0px 100px;
+  padding-top: 1rem;
+
+
+}
+
+.backgroundBeigeSponsor {
+  background: var(--beige);
+  border-radius: 0px 100px 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  padding-bottom: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 60px;
+}
 h1 {
-  font-size: 2rem;
-  color: var(--darkBlue);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--darkBlue);
 }
 
 h2 {
@@ -79,37 +110,9 @@ p {
 
 /* program start */
   /* torsdag start */
-  .torsdagH1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--darkBlue);
-    text-decoration: underline;
-  }
-  
-  .torsdagBackground1 {
-    background: var(--beige);
-    border-radius: 0px 100px 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 5rem;
-    padding-bottom: 3rem;
-    padding-top: 1rem;
-    margin-bottom: 60px;
-  }
 
-  .torsdagBackground2 {
-    background: var(--beige);
-    border-radius: 100px 0px 100px 0px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
-    margin-bottom: 60px;
-  }
+  
+
 
   .torsdagNav {
     display: flex;
@@ -133,6 +136,7 @@ h1 {
   margin-bottom: 40px;
   margin-top: 40px;
 }
+
 
 .praktiskInf {
   background-color: var(--beige);
@@ -163,6 +167,7 @@ h1 {
 h2 {
   margin-bottom: 30px;
   margin-top: 30px;
+  text-align: center;
 }
 
 .PraktisAccordion {
@@ -183,10 +188,12 @@ h2 {
   display: none;
   overflow: hidden;
   background-color: #eeede8;
+  text-align: left;
 }
 
 .accordionIndhold p {
   padding-top: 0px;
+  margin-top: 0;
 }
 
 .accordionSection {
@@ -208,13 +215,20 @@ h2 {
 }
 
 /* css til 1 entrypoint */
+
+.entryPointsWrapper {
+  margin: 2rem;
+}
+
 .ctaProgram {
+  display: flex;
+  justify-content: center;
   background-image: url(../img/entryPoints/EntryProgram.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 110px;
-  width: 358px;
+  width: 100%;
   position: relative;
   margin-bottom: 10px;
 }
@@ -240,7 +254,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 110px;
-  width: 358px;
+  width: 100%;
   position: relative;
   margin-bottom: 10px;
 }
@@ -265,7 +279,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 110px;
-  width: 358px;
+  width: 100%;
   position: relative;
   margin-bottom: 10px;
 }
@@ -287,6 +301,31 @@ h2 {
   margin-bottom: 30px;
 }
 
+/* css til 4 entrypoint */
+.ctaPraktisk{
+  background-image: url(../img/entryPoints/EntryInformation.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.ctaCards4 a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: var(--white);
+  background-image: linear-gradient(to right,
+      rgba(50, 136, 202, 0.5),
+      rgba(50, 136, 202, 0.5));
+  padding: 10px;
+}
+
 /* nyheder start */
 
 .nyhederBackground {
@@ -303,10 +342,12 @@ h2 {
   margin: 2rem;
   background-color: white;
   border-radius: 2rem;
+
 }
 
 .nyhedsSection i,
 .nyhedsSection p {
+  margin: 0;
   padding: 1rem;
 }
 
@@ -334,6 +375,24 @@ h2 {
   padding-top: 1rem;
 }
 
+.nyhederKnap {
+  background-color: var(--orange);
+  border-radius: 20px;
+  border: none;
+  color: var(--white);
+  padding: 13px 35px;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 30px 2px;
+}
+
+.nyhederKnap a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+
+
 /* nyheder slut */
 
 /* kontakt start */
@@ -345,13 +404,15 @@ h2 {
   display: flex;
   margin-top: var(--mellemSection);
   flex-direction: column;
-  margin-left: 25%;
+  margin-left: 15%;
+}
+.kontaktOplysninger p {
+  margin: 0;
 }
 
 .kontaktOverskrift {
   display: flex;
   justify-content: center;
-  margin-top: var(--mellemSection);
 }
 
 .kontaktOplysningerHome,
@@ -364,6 +425,10 @@ h2 {
 /* kort */
 .kort {
   margin-top: var(--mellemSection);
+}
+.frivillig h2, .kort h2  {
+  text-align: left;
+  margin: 2rem;
 }
 
 .kort p {
@@ -378,16 +443,17 @@ h2 {
 .frivillig p {
   margin-top: var(--mellemElementer);
   margin-bottom: var(--mellemElementer);
-  ;
 }
 
 .formularFrivillig {
   color: var(--lightBlue);
+  margin: 2rem;
 }
 
 .formularFrivillig input {
   border-radius: 10px;
   padding: 5px;
+  width: 100%;
 }
 
 .formularFrivillig input#besked {
@@ -435,53 +501,32 @@ h2 {
   padding: 3rem;
 }
 
-.sponsoratBackground1 {
-  background: var(--beige);
-  border-radius: 0px 100px 0px 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 5rem;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  margin-bottom: 60px;
+
+
+.backgroundBeigeSponsor img {
+  width: 70%;
 }
 
-.sponsoratBackground1 img {
-  width: 50%;
-}
 
-.sponsoratBackground2 {
-  background: var(--beige);
-  border-radius: 100px 0px 100px 0px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  margin-bottom: 60px;
-}
-
-.sponsoratBackground2 h2,
+.backgroundBeigeSponsor h2,
 ul,
 li {
   margin: 10px;
 }
 
-.sponsoratBackground2 ul {
+.backgroundBeigeSponsor ul {
   margin-top: 1.5rem;
 }
 
-.sponsoratBackground2 h2 {
+.backgroundBeigeSponsor h2 {
   padding: 0 2rem;
 }
 
-.sponsoratBackground2 p {
+.backgroundBeigeSponsor p {
   margin: 0 40px;
 }
 
-.sponsoratBackground2 article {
+.backgroundBeigeSponsor article {
   margin-bottom: 2rem;
 }
 
