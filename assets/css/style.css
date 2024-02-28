@@ -1,86 +1,171 @@
-*,*::before,*::after{
-    box-sizing: border-box;
-    margin: 0;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
- }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
- /* Variables */
+/* Variables */
 
- :root{
-    --lightBlue: #3288CC;
-    --orange: #FFA72F;
-    --white: #F3F3F3;
-    --beige: #F0ECDE;
-    --grey: #707070;
-    --darkBlue: #455475;
+:root {
+  --lightBlue: #3288cc;
+  --orange: #ffa72f;
+  --white: #f3f3f3;
+  --beige: #f0ecde;
+  --grey: #707070;
+  --darkBlue: #455475;
 
-    --mellemSection: 2.5rem;
-    --mellemElementer: 1.25rem; 
- }
+  --mellemSection: 2.5rem;
+  --mellemElementer: 1.25rem;
+}
 
- /* Generel styling */
+/* Generel styling */
 
- h1{ 
-    font-size: 2rem;
- }
+h1 {
+  font-size: 2rem;
+}
 
- h2{
-    font-size: 1.5rem;
-    color: var(--lightBlue);
- }
+h2 {
+  font-size: 1.5rem;
+  color: var(--lightBlue);
+}
 
- p{
-    font-size: 1rem;
-    color: var(--grey);
-    line-height: 1.5rem;
- }
+p {
+  font-size: 1rem;
+  color: var(--grey);
+  line-height: 1.5rem;
+}
 
+/* header start */
+.navbar {
+  background-color: var(--lightBlue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+/* header slut */
 
- /* header start */
-    .navbar{
-        background-color: var(--lightBlue);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-    }
- /* header slut */
+/* footer start */
+.soMe {
+  background-color: var(--lightBlue);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
- /* footer start */
-    .soMe {
-        background-color: var(--lightBlue);
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
+.soMe p {
+  color: var(--white);
+  font-weight: bold;
+}
 
-    .soMe p{
-        color: var(--white);
-        font-weight: bold;
-    }
+.footerIcons {
+  font-size: 30px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+/* footer slut */
 
-    .footerIcons{
-        font-size: 30px;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-    }
- /* footer slut */
+/* index start */
+/* index slut */
 
- /* index start */
- /* index slut */
+/* program start */
+/* program slut */
 
+/* spillesteder start */
+/* spillesteder slut */
 
- /* program start */
- /* program slut */
+/* nyheder start */
+/* nyheder slut */
 
+/* praktisk information start */
 
- /* spillesteder start */
- /* spillesteder slut */
+h1 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.praktiskInf {
+  background-color: var(--beige);
+  border-radius: 0px 100px 0px 100px;
+  padding-bottom: 40px;
+}
+.praktiskInf p {
+  padding-top: 30px;
+}
 
+.praktiskKnap {
+  background-color: #e26c1b;
+  border-radius: 20px;
+  border: none;
+  padding: 13px 35px;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.praktiskKnap a {
+  text-decoration: none;
+  color: var(--white);
+}
+h2 {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.PraktisAccordion {
+  background-color: var(--lightBlue);
+  color: var(--white);
+  padding: 18px;
+  text-align: left;
+  transition: 0.4s;
+  width: 86%;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: #333333;
+  border-width: thin;
+}
+
+praktiskInformation
+.accordionIndhold {
+  background-color: var(--beige);
+  display: none;
+  overflow: hidden;
+  background-color: #eeede8;
+}
+.accordionIndhold p {
+  padding-top: 0px;
+}
+.accordionSection {
+  text-align: center;
+}
+
+.PraktisAccordion:after {
+  content: "\02795"; /* Unicode */
+  font-size: 13px;
+
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode */
+}
+/* css til 1 entrypoint */
+.ctaProgram {
+  background-image: url(../img/entryPoints/EntryProgram.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 358px;
+  position: relative;
+  margin-bottom: 10px;
+}
 
  /* nyheder start */
 
@@ -129,9 +214,79 @@ body{
 
  /* nyheder slut */
 
- /* praktisk information start */
- /* praktisk information slut */
 
+.ctaCards a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: var(--white);
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
+  padding: 10px;
+}
+
+/* css til 2 entry point */
+
+.ctaSpillesteder {
+  background-image: url(../img/entryPoints/EntrySpillesteder.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 358px;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.ctaCards1 a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: var(--white);
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
+  padding: 10px;
+}
+
+praktiskInformation
+/* css til 3 entrypoint */
+.ctaNyheder {
+  background-image: url(../img/entryPoints/entryNyheder.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110px;
+  width: 358px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.ctaCards3 a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: var(--white);
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
+  padding: 10px;
+}
+.ctaCards3 {
+  margin-bottom: 30px;
+}
  /* kontakt start */
    .kontaktOplysninger i{
       margin-bottom: 1rem;
@@ -219,8 +374,12 @@ body{
    }
 
  /* kontakt slut */
+ 
 
- /* sponsorater start */
- /* sponsorater slut */
+/* praktisk information slut */
 
+/* kontakt start */
+/* kontakt slut */
 
+/* sponsorater start */
+/* sponsorater slut */
