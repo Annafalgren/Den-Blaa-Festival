@@ -7,21 +7,17 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 p {
   margin: 2rem;
 }
 
-
-
-
 /* Variables */
 
 :root {
   --lightBlue: #3288cc;
-  --orange: #E26C1B;
+  --orange: #e26c1b;
   --white: #f3f3f3;
   --beige: #f0ecde;
   --grey: #707070;
@@ -37,8 +33,6 @@ p {
   background: var(--beige);
   border-radius: 0px 100px 0px 100px;
   padding-top: 1rem;
-
-
 }
 
 .backgroundBeigeSponsor {
@@ -54,11 +48,11 @@ p {
   margin-bottom: 60px;
 }
 h1 {
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--darkBlue);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--darkBlue);
 }
 
 h2 {
@@ -106,25 +100,52 @@ p {
 /* footer slut */
 
 /* index start */
+.heroBillede h1 {
+  background-image: url(../img/entryPoints/hero.jpg);
+  height: 266px;
+  margin-top: 0px;
+  color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sponsorerForside img {
+  height: 50px;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+.forsidenyheder img {
+  height: 303px;
+  width: 378px;
+}
+.forsideWrapper {
+  background-color: var(--lightBlue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 180px;
+}
+.sponsorerForside h2,
+a {
+  color: var(--white);
+}
+
 /* index slut */
 
 /* program start */
-  /* torsdag start */
+/* torsdag start */
 
-  
+.torsdagNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
 
-
-  .torsdagNav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-  }
-
-  .torsdagNav i {
-    font-size: 25px;
-  }
-  /* torsdag slut */
+.torsdagNav i {
+  font-size: 25px;
+}
+/* torsdag slut */
 /* program slut */
 
 /* spillesteder start */
@@ -136,7 +157,6 @@ h1 {
   margin-bottom: 40px;
   margin-top: 40px;
 }
-
 
 .praktiskInf {
   background-color: var(--beige);
@@ -240,9 +260,11 @@ h2 {
   transform: translate(-50%, -50%);
   text-decoration: none;
   color: var(--white);
-  background-image: linear-gradient(to right,
-      rgba(50, 136, 202, 0.5),
-      rgba(50, 136, 202, 0.5));
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
   padding: 10px;
 }
 
@@ -266,9 +288,11 @@ h2 {
   transform: translate(-50%, -50%);
   text-decoration: none;
   color: var(--white);
-  background-image: linear-gradient(to right,
-      rgba(50, 136, 202, 0.5),
-      rgba(50, 136, 202, 0.5));
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
   padding: 10px;
 }
 
@@ -291,9 +315,11 @@ h2 {
   transform: translate(-50%, -50%);
   text-decoration: none;
   color: var(--white);
-  background-image: linear-gradient(to right,
-      rgba(50, 136, 202, 0.5),
-      rgba(50, 136, 202, 0.5));
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
   padding: 10px;
 }
 
@@ -302,7 +328,7 @@ h2 {
 }
 
 /* css til 4 entrypoint */
-.ctaPraktisk{
+.ctaPraktisk {
   background-image: url(../img/entryPoints/EntryInformation.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -320,9 +346,11 @@ h2 {
   transform: translate(-50%, -50%);
   text-decoration: none;
   color: var(--white);
-  background-image: linear-gradient(to right,
-      rgba(50, 136, 202, 0.5),
-      rgba(50, 136, 202, 0.5));
+  background-image: linear-gradient(
+    to right,
+    rgba(50, 136, 202, 0.5),
+    rgba(50, 136, 202, 0.5)
+  );
   padding: 10px;
 }
 
@@ -342,7 +370,6 @@ h2 {
   margin: 2rem;
   background-color: white;
   border-radius: 2rem;
-
 }
 
 .nyhedsSection i,
@@ -350,7 +377,6 @@ h2 {
   margin: 0;
   padding: 1rem;
 }
-
 
 .nyhedsSection .nyhedsDate {
   color: var(--lightBlue);
@@ -391,8 +417,6 @@ h2 {
   color: var(--white);
 }
 
-
-
 /* nyheder slut */
 
 /* kontakt start */
@@ -426,7 +450,8 @@ h2 {
 .kort {
   margin-top: var(--mellemSection);
 }
-.frivillig h2, .kort h2  {
+.frivillig h2,
+.kort h2 {
   text-align: left;
   margin: 2rem;
 }
@@ -487,7 +512,7 @@ h2 {
 }
 
 .formularFrivillig input {
-  border-width: .5px;
+  border-width: 0.5px;
 }
 
 /* kontakt slut */
@@ -501,12 +526,9 @@ h2 {
   padding: 3rem;
 }
 
-
-
 .backgroundBeigeSponsor img {
   width: 70%;
 }
-
 
 .backgroundBeigeSponsor h2,
 ul,
