@@ -13,7 +13,7 @@ body {
 
 :root {
   --lightBlue: #3288cc;
-  --orange: #ffa72f;
+  --orange: #E26C1B;
   --white: #f3f3f3;
   --beige: #f0ecde;
   --grey: #707070;
@@ -27,6 +27,7 @@ body {
 
 h1 {
   font-size: 2rem;
+  color: var(--darkBlue);
 }
 
 h2 {
