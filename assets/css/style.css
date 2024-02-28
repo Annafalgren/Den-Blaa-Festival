@@ -37,8 +37,12 @@ p {
   background: var(--beige);
   border-radius: 0px 100px 0px 100px;
   padding-top: 1rem;
+}
 
-
+.backgroundBeigeReverse {
+  background: var(--beige);
+  border-radius: 100px 0px 100px 0px;
+  padding-top: 1rem;
 }
 
 .backgroundBeigeSponsor {
@@ -110,19 +114,83 @@ p {
 
 /* program start */
   /* torsdag start */
-
+  .backgroundBeigeProgram {
+    background: var(--beige);
+    border-radius: 0px 100px 0px 100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   
-
-
   .torsdagNav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    margin-bottom: 2rem;
   }
 
   .torsdagNav i {
     font-size: 25px;
+  }
+
+  .headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bandHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .A-Z {
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--lightBlue);
+    padding-right: 2rem;
+  }
+
+  .A-Z p {
+    font-size: 20px;
+    color: black;
+  }
+
+  .A-Z i {
+    font-size: 25px;
+  }
+
+  .kunstnerbilledeContainer img {
+    width: 100%;
+  }
+
+  .prisogspisningContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .prisogspisningContainer i {
+    font-size: 25px;
+  }
+
+  .programPris {
+    display: flex;
+    align-items: center;
+  }
+
+  .programSpisning {
+    display: flex;
+    align-items: center;
+  }
+
+  .programPris p:nth-child(3), .programSpisning p:nth-child(3) {
+    color: var(--lightBlue);
   }
   /* torsdag slut */
 /* program slut */
