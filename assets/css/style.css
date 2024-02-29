@@ -286,6 +286,80 @@ img {
 /* index slut */
 
 /* program start */
+.popup-link {
+  display: flex;
+  flex-wrap: wrap;
+}
+.popup-link img {
+  height: 200px;
+  width: 100%;
+}
+
+.popup-link a {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.popup-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.3);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(50, 136, 204, 0.6);
+  display: flex;
+  align-items: center;
+}
+.popup-container h3 {
+  color: var(--lightBlue);
+}
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+}
+.popup-content p {
+  font-size: 17px;
+  padding: 10px;
+  line-height: 20px;
+}
+.popup-content a.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+
+
+.popup-container:target {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.popup-container h3 {
+  margin: 10px;
+}
+
+.popup-container p {
+  margin: 0;
+}
+
 /* torsdag start */
 
 .torsdagNav {
