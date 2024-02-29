@@ -31,21 +31,21 @@ p {
 
 .backgroundBeige {
   background: var(--beige);
-  border-radius: 0px 100px 0px 100px;
+  border-radius: 0px 60px 0px 60px;
   padding-top: 1rem;
 
 }
 
 .backgroundBeigeReverse {
   background: var(--beige);
-  border-radius: 100px 0px 100px 0px;
+  border-radius: 60px 0px 60px 0px;
   padding-top: 1rem;
 
 }
 
 .backgroundBeigeSponsor {
   background: var(--beige);
-  border-radius: 0px 100px 0px 100px;
+  border-radius: 0px 60px 0px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,8 +213,7 @@ p {
   margin-bottom: 30px;
   height: 180px;
 }
-.sponsorerForside h2,
-a {
+.sponsorerForside h2{
   color: var(--white);
 }
 
@@ -501,7 +500,7 @@ h1 {
 
 .praktiskInf {
   background-color: var(--beige);
-  border-radius: 0px 100px 0px 100px;
+  border-radius: 0px 60px 0px 60px;
   padding-bottom: 40px;
 }
 
@@ -698,7 +697,8 @@ h2 {
 /* nyheder start */
 
 .nyhederBackground {
-  background-color: beige;
+  background: var(--beige);
+  border-radius: 0px 60px 0px 60px;
   padding-bottom: 2rem;
 }
 
@@ -799,6 +799,12 @@ h2 {
 
 .kort p {
   margin-top: var(--mellemElementer);
+}
+#googleMapsWrapper {
+  margin: 2rem;
+}
+iframe {
+  width: 100%;
 }
 
 /* frivillig */
