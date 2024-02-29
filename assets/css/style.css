@@ -83,6 +83,8 @@ p {
   padding: 1rem;
 }
 
+
+
 /* header slut */
 
 /* footer start */
@@ -191,6 +193,8 @@ p {
   color: var(--white);
   background-repeat: no-repeat;
   background-size: cover;
+  
+
 }
 .sponsorerForside img {
   height: 50px;

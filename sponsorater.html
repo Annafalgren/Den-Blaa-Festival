@@ -18,13 +18,60 @@
     <header>
       <div class="navbar">
         <div class="homeIcon">
-          <i class="fa-solid fa-house" style="color: #ffffff"></i>
+          <a href="./index.html"
+            ><i class="fa-solid fa-house" style="color: #ffffff"></i
+          ></a>
         </div>
         <div class="burgerMenu">
-          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <div class="houseLogo">
+                <i class="fa-solid fa-house" style="color: #ffffff"></i>
+                <a href="index.html">Hjem</a>
+              </div>
+              <hr />
+              <div class="houseLogo">
+                <i class="fa-solid fa-guitar" style="color: #ffffff"></i>
+                <a href="programTor.html">Program</a>
+              </div>
+              <hr />
+              <div class="houseLogo">
+                <i class="fa-solid fa-building" style="color: #ffffff"></i>
+                <a href="spillesteder.html">Spillesteder</a>
+              </div>
+              <hr />
+              <div class="houseLogo">
+                <i class="fa-solid fa-newspaper" style="color: #ffffff"></i>
+                <a href="nyheder.html">Nyheder</a>
+              </div>
+              <hr />
+              <div class="houseLogo">
+                <i class="fa-solid fa-circle-info" style="color: #ffffff"></i>
+                <a href="praktiskInformation.html">Praktisk information</a>
+              </div>
+              <hr />
+              <div class="houseLogo">
+                <i class="fa-solid fa-address-book" style="color: #ffffff"></i>
+                <a href="kontakt.html">Kontakt</a>
+              </div>
+              <hr />
+              <div class="houseLogo">
+                <i class="fa-solid fa-money-bill" style="color: #ffffff"></i>
+                <a href="sponsorater.html">Sponsorater</a>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="burgermenu">
+            <span style="font-size: 30px" onclick="openNav()">&#9776;</span>
+          </div>
         </div>
       </div>
     </header>
+
     <main>
       <div class="sponsoratH1">
         <h1>Sponsorater</h1>
