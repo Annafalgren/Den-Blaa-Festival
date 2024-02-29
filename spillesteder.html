@@ -1,41 +1,127 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Den Blå Festoval | Spillesteder</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="./assets/js/app.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="navbar">
-            <div class="homeIcon">
-                <i class="fa-solid fa-house" style="color: #ffffff;"></i>
-            </div>
-            <div class="burgerMenu">
-                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-            </div>
+      <div class="navbar">
+        <div class="homeIcon">
+          <i class="fa-solid fa-house" style="color: #ffffff"></i>
         </div>
+        <div class="burgerMenu">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </div>
+      </div>
     </header>
     <main>
-        <h1>Spillesteder</h1>
+      <h1>Spillesteder</h1>
+      <div class="backgroundBeige" id="backgroundSpillesteder">
+        <section class="spillestederSection">
+          <article>
+            <img
+              src="./assets/img/spilleSteder/bluesscenenToldbod.png"
+              alt=""
+            />
+            <h3>Bluesscenen Toldbod Plads</h3>
+            <p>
+              Kom og deltag i vores udendørs blues! Den Blå Festivals bluesscene
+              oplever hvert år et brag af en bluefest, hvor vores gæster møder
+              talstærkt op, og har det godt.
+            </p>
+          </article>
+          <article>
+            <img src="./assets/img/spilleSteder/duusVinkælder.png" alt="" />
+            <h3>Duus vinkælder</h3>
+            <p>
+              Du kan mærke det i samme øjeblik, du træder ind ad døren.
+              Historiens vingesus blander sig med duften af nylavet mad,
+              summende stemmer og glas, der mødes i en skål. Alt sammen i smukke
+              historiske rammer i det gamle stenhus – lige midt i Aalborg. 
+            </p>
+          </article>
+          <article>
+            <img src="./assets/img/spilleSteder/jazzScenen.png" alt="" />
+            <h3>Jazzscenen</h3>
+            <p>
+              Den blå festivals store omdrejningspunkt er jazzscenen, hvor vi
+              oplever en kæmpe opbakning fra vores gæster der møder op i store
+              mængder hvert år. Du oplever jazzscenen udendørs, hvor dygtige
+              jazz-kunstnere sørger for at sætte gang i festen.
+            </p>
+          </article>
+          <article>
+            <img src="./assets/img/spilleSteder/kaffeFair.png" alt="" />
+            <h3>KaffeFair</h3>
+            <p>
+              KaffeFair åbnede d. 23. juni 2006 i beskedne lokaler i Maren Turis
+              Gade i Aalborg. Allerede den 15. august 2008 flyttede vi til
+              større lokaler i Nørregade. Flere afdelinger kom til i årene
+              derefter. I 2018 åbnede KaffeFair på Strandvejen. Mange spørger,
+              hvor navnet kommer fra. Det er opfundet af en gruppe unge, som var
+              med til at udvikle konceptet, inden vi åbnede. Idéen var at lave
+              en kaffebar i Aalborg med fokus på Fair Trade. Deraf navnet.  
+            </p>
+          </article>
+          <article>
+            <img src="./assets/img/spilleSteder/stargateScenen.png" alt="" />
+            <h3>Stargate Scenen</h3>
+            <p>
+              Er du en jazznørd? Kom og oplev klassiske og upcoming
+              jazzkunstnere på Stargatescenen
+            </p>
+          </article>
+        </section>
+      </div>
 
+      <!-- Cta entry points -->
+      <div class="entryPointsWrapper">
+        <section class="ctaCards">
+          <div class="ctaProgram">
+            <a href="program.html" class="buttonPratisk">Program</a>
+          </div>
+        </section>
+        <section class="ctaCards1" hidden>
+          <div class="ctaSpillesteder">
+            <a href="spillesteder.html" class="buttonPratisk">Spillesteder</a>
+          </div>
+        </section>
+        <section class="ctaCards3">
+          <div class="ctaNyheder">
+            <a href="./nyheder.html" class="buttonPratisk">Nyheder</a>
+          </div>
+        </section>
+        <section class="ctaCards4">
+          <div class="ctaPraktisk">
+            <a href="praktiskInformation.html" class="buttonPratisk"
+              >Praktisk Info</a
+            >
+          </div>
+        </section>
+      </div>
+      <!-- Cta entry points -->
     </main>
     <footer>
-        <div class="soMe">
-            <p>Følg os for mere!</p>
-            <div class="footerIcons">
-                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
-            </div>
+      <div class="soMe">
+        <p>Følg os for mere!</p>
+        <div class="footerIcons">
+          <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+          <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+          <i class="fa-brands fa-youtube" style="color: #ffffff"></i>
         </div>
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>

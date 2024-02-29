@@ -33,6 +33,14 @@ p {
   background: var(--beige);
   border-radius: 0px 100px 0px 100px;
   padding-top: 1rem;
+
+}
+
+.backgroundBeigeReverse {
+  background: var(--beige);
+  border-radius: 100px 0px 100px 0px;
+  padding-top: 1rem;
+
 }
 
 .backgroundBeigeSponsor {
@@ -101,6 +109,7 @@ p {
 
 /* index start */
 
+
 /*burgermenu  */
 .overlay {
   height: 0%;
@@ -135,6 +144,24 @@ p {
 .overlay a:focus {
   color: #f1f1f1;
 }
+
+/* program start */
+  /* torsdag start */
+  .backgroundBeigeProgram {
+    background: var(--beige);
+    border-radius: 0px 100px 0px 100px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .torsdagNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+
 
 .overlay .closebtn {
   position: absolute;
@@ -250,6 +277,7 @@ img {
   to {
     opacity: 1;
   }
+
 }
 
 /* index slut */
@@ -268,9 +296,99 @@ img {
   font-size: 25px;
 }
 /* torsdag slut */
+
+
+  .headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bandHeading {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .A-Z {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--lightBlue);
+    padding-right: 2rem;
+    margin: 0 5rem;
+    margin-bottom: 4rem;
+  }
+
+  .A-Z p {
+    font-size: 20px;
+    color: black;
+  }
+
+  .A-Z i {
+    font-size: 25px;
+  }
+
+  .kunstnerbilledeContainer img {
+    width: 100%;
+  }
+
+  .prisogspisningContainer {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .prisogspisningContainer i {
+    font-size: 25px;
+  }
+
+  .programPris {
+    display: flex;
+    align-items: center;
+  }
+
+  .programSpisning {
+    display: flex;
+    align-items: center;
+  }
+
+  .programPris p:nth-child(3), .programSpisning p:nth-child(3) {
+    color: var(--lightBlue);
+  }
+  /* torsdag slut */
+
 /* program slut */
 
 /* spillesteder start */
+
+.spillestederSection h3 {
+  color: var(--lightBlue);
+  margin: 1rem 2rem 0;
+}
+
+.spillestederSection p {
+  margin-top: 1rem;
+  margin-left: 2rem ;
+}
+
+#backgroundSpillesteder {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.spillestederSection img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+
 /* spillesteder slut */
 
 /* praktisk information start */
