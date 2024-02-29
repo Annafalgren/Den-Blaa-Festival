@@ -16,7 +16,6 @@ if (window.location.href.includes("praktiskInformation")) {
   }
 }
 
-if (window.location.href.includes("index")) {
   let slideIndex = 0;
   showSlides();
 
@@ -46,4 +45,4 @@ if (window.location.href.includes("index")) {
   function closeNav() {
     document.getElementById("myNav").style.height = "0%";
   }
-}
+
