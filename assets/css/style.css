@@ -428,6 +428,10 @@ img {
     font-size: 25px;
     margin-right: .3rem;
   }
+  .kunstnerbilledeContainer {
+    margin: 0 2rem 0;
+  }
+
 
   .kunstnerbilledeContainer img {
     object-fit: cover;
@@ -438,8 +442,8 @@ img {
   .prisogspisningContainer {
     display: flex;
     align-items: center;
-    padding: 0 2rem;
-    gap: 2rem;
+    padding: 0 3rem;
+    gap: 1rem;
     margin-bottom: 3rem;
   }
 
@@ -468,7 +472,7 @@ img {
 
 .spillestederSection h3 {
   color: var(--lightBlue);
-  margin: 1rem 2rem 0;
+  margin: -1rem 2rem 0;
 }
 
 .spillestederSection p {
@@ -477,7 +481,7 @@ img {
 }
 
 #backgroundSpillesteder {
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -485,6 +489,9 @@ img {
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+.spillestederImgWrapper {
+  margin: 2rem;
 }
 
 
