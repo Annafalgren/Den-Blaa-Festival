@@ -285,16 +285,16 @@ img {
 /* index slut */
 
 /* program start */
-.popup-link {
+.kunstnerIndhold {
   display: flex;
   flex-wrap: wrap;
 }
-.popup-link img {
+.kunstnerIndhold img {
   height: 200px;
   width: 100%;
 }
 
-.popup-link a {
+.kunstnerIndhold a {
   color: #fff;
   border-radius: 5px;
   font-size: 17px;
@@ -302,7 +302,7 @@ img {
   text-decoration: none;
 }
 
-.popup-container {
+.kunstnerWrapper {
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out;
@@ -317,22 +317,22 @@ img {
   display: flex;
   align-items: center;
 }
-.popup-container h3 {
+.kunstnerWrapper h3 {
   color: var(--lightBlue);
 }
-.popup-content {
+.programIndhold {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
   width: 90%;
 }
-.popup-content p {
+.programIndhold p {
   font-size: 17px;
   padding: 10px;
   line-height: 20px;
 }
-.popup-content a.close {
+.programIndhold a.lukIndhold {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -345,17 +345,17 @@ img {
 
 
 
-.popup-container:target {
+.kunstnerWrapper:target {
   visibility: visible;
   opacity: 1;
   transform: scale(1);
 }
 
-.popup-container h3 {
+.kunstnerWrapper h3 {
   margin: 10px;
 }
 
-.popup-container p {
+.kunstnerWrapper p {
   margin: 0;
 }
 
