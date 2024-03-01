@@ -94,6 +94,7 @@ p {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .soMe p {
@@ -103,8 +104,11 @@ p {
 
 .footerIcons {
   font-size: 30px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   margin-top: 1rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* footer slut */
@@ -188,7 +192,7 @@ p {
 
 .heroBillede h1 {
   background-image: url(../img/entryPoints/hero.jpg);
-  height: 266px;
+  height: 30vh;
   margin-top: 0px;
   color: var(--white);
   background-repeat: no-repeat;
@@ -199,15 +203,16 @@ p {
 
 .sponsorBilledeForside { 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 2rem;
+  margin-bottom: 1rem
 ;
 
 
 }
 .sponsorerForside img {
-  height: 3rem;
-  width: 100%;
+  height: 100%;
+  width: 5rem;
   color: var(--white);
   margin-bottom: 20px;
 
@@ -235,6 +240,10 @@ p {
 
 .mySlides {
   display: none;
+}
+
+.mySlides p {
+  color: var(--lightBlue);
 }
 img {
   vertical-align: middle;
@@ -285,7 +294,7 @@ img {
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 5s;
 }
 
 @keyframes fade {
@@ -935,6 +944,9 @@ li {
 
 .backgroundBeigeSponsor article {
   margin-bottom: 2rem;
+}
+#programRedaktion {
+  padding-bottom: 2rem;
 }
 
 /* sponsorater slut */
