@@ -196,11 +196,27 @@ p {
   
 
 }
-.sponsorerForside img {
-  height: 50px;
-  color: var(--white);
-  margin-bottom: 10px;
+
+.sponsorBilledeForside { 
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+;
+
+
 }
+.sponsorerForside img {
+  height: 3rem;
+  width: 100%;
+  color: var(--white);
+  margin-bottom: 20px;
+
+}
+
+.forsideWrapper a {
+  color: white;
+}
+
 .forsidenyheder img {
   height: 303px;
   width: 378px;
@@ -211,7 +227,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  height: 180px;
+  height: 13rem;
 }
 .sponsorerForside h2{
   color: var(--white);
@@ -513,6 +529,7 @@ h1 {
 
 .praktiskInf p {
   padding-top: 30px;
+  margin-bottom: 0;
 }
 
 .praktiskKnap {
@@ -522,7 +539,7 @@ h1 {
   padding: 13px 35px;
   display: inline-block;
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 2rem;
   margin-left: 100px;
 }
 
@@ -891,12 +908,12 @@ iframe {
   justify-content: center;
   align-items: center;
   color: var(--darkBlue);
-  padding: 3rem;
 }
 
 .backgroundBeigeSponsor img {
   width: 70%;
 }
+
 
 .backgroundBeigeSponsor h2,
 ul,
