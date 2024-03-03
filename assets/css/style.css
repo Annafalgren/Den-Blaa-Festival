@@ -34,14 +34,12 @@ p {
   background: var(--beige);
   border-radius: 0px 60px 0px 60px;
   padding-top: 1rem;
-
 }
 
 .backgroundBeigeReverse {
   background: var(--beige);
   border-radius: 60px 0px 60px 0px;
   padding-top: 1rem;
-
 }
 
 h1 {
@@ -141,21 +139,20 @@ p {
 }
 
 /* program start */
-  /* torsdag start */
-  .backgroundBeigeProgram {
-    background: var(--beige);
-    border-radius: 0px 60px 0px 0;
-    padding-top: 1rem;
-  }
-  
-  .torsdagNav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    margin-bottom: 2rem;
-  }
+/* torsdag start */
+.backgroundBeigeProgram {
+  background: var(--beige);
+  border-radius: 0px 60px 0px 0;
+  padding-top: 1rem;
+}
 
+.torsdagNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
 
 .overlay .closebtn {
   position: absolute;
@@ -186,31 +183,24 @@ p {
   color: var(--white);
   background-repeat: no-repeat;
   background-size: cover;
-  
-
 }
 
-.sponsorBilledeForside { 
+.sponsorBilledeForside {
   display: flex;
   justify-content: space-around;
   gap: 2rem;
-  margin-bottom: 1rem
-;
-
-
+  margin-bottom: 1rem;
 }
 .sponsorerForside img {
   height: 100%;
   width: 5rem;
   color: var(--white);
   margin-bottom: 20px;
-
 }
 
 .forsideWrapper a {
   color: white;
 }
-
 
 .forsidenyheder img {
   height: 303px;
@@ -224,7 +214,7 @@ p {
   margin-bottom: 30px;
   height: 13rem;
 }
-.sponsorerForside h2{
+.sponsorerForside h2 {
   color: var(--white);
 }
 
@@ -294,7 +284,6 @@ img {
   to {
     opacity: 1;
   }
-
 }
 
 /* index slut */
@@ -313,7 +302,7 @@ img {
 
 .kunstnerWrapper {
   visibility: hidden;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   position: fixed;
   left: 0;
   top: 0;
@@ -374,98 +363,90 @@ img {
 }
 /* torsdag slut */
 
+.headingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
 
-  .headingContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-    margin-bottom: 1rem;
-  }
+.headingContainer:nth-of-type(1) .A-Z {
+  order: 2;
+}
 
-  .headingContainer:nth-of-type(1) .A-Z {
-    order: 2;
-  }
+.headingContainer:nth-of-type(1) .bandHeading {
+  order: 1;
+}
+.prisogspisningContainer p {
+  margin-right: 0;
+}
 
-  .headingContainer:nth-of-type(1) .bandHeading {
-    order: 1;
+.prisogspisningContainer p span {
+  color: var(--lightBlue);
+  font-weight: bold;
+}
 
-  }
-  .prisogspisningContainer p {
-    margin-right: 0 ;
+.bandHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 
-  }
+.A-Z {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--lightBlue);
+}
 
-  .prisogspisningContainer p span {
-    color: var(--lightBlue);
-    font-weight: bold;
-  }
+.A-Z p {
+  font-size: 20px;
+  color: black;
+  margin: 0.5rem 1rem 0.5rem;
+}
 
+.A-Z i {
+  font-size: 25px;
+  margin-right: 0.3rem;
+}
+.kunstnerbilledeContainer {
+  margin: 0 2rem 0;
+}
 
-  .bandHeading {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
+.kunstnerbilledeContainer img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 
+.prisogspisningContainer {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
 
+.prisogspisningContainer i {
+  font-size: 25px;
+}
 
-  .A-Z {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--lightBlue);
+.programPris {
+  display: flex;
+  align-items: center;
+}
 
-    
-  }
+.programSpisning {
+  display: flex;
+  align-items: center;
+}
 
-  .A-Z p {
-    font-size: 20px;
-    color: black;
-    margin: .5rem 1rem .5rem;
-  }
-
-  .A-Z i {
-    font-size: 25px;
-    margin-right: .3rem;
-  }
-  .kunstnerbilledeContainer {
-    margin: 0 2rem 0;
-  }
-
-
-  .kunstnerbilledeContainer img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-  }
-
-  .prisogspisningContainer {
-    display: flex;
-    align-items: center;
-    padding: 0 3rem;
-    gap: 1rem;
-    margin-bottom: 3rem;
-  }
-
-  .prisogspisningContainer i {
-    font-size: 25px;
-  }
-
-  .programPris {
-    display: flex;
-    align-items: center;
-  }
-
-  .programSpisning {
-    display: flex;
-    align-items: center;
-  }
-
-  .programPris p:nth-child(3), .programSpisning p:nth-child(3) {
-    color: var(--lightBlue);
-  }
-  /* torsdag slut */
+.programPris p:nth-child(3),
+.programSpisning p:nth-child(3) {
+  color: var(--lightBlue);
+}
+/* torsdag slut */
 
 /* program slut */
 
@@ -478,7 +459,7 @@ img {
 
 .spillestederSection p {
   margin-top: 1rem;
-  margin-left: 2rem ;
+  margin-left: 2rem;
 }
 
 #backgroundSpillesteder {
@@ -494,8 +475,6 @@ img {
 .spillestederImgWrapper {
   margin: 2rem;
 }
-
-
 
 /* spillesteder slut */
 
@@ -592,6 +571,7 @@ h2 {
 .ctaProgram {
   display: flex;
   justify-content: center;
+  /* Kilde: https://www.colourbox.dk/billede/klaver-tangenter-noegle-billede-14248443?fbclid=IwAR3ot1pNhSjqLTE4eTQVrU_Iu1mFDYB-1rN5B2TMX6IYyqfJwuz_oDRwbBY */
   background-image: url(../img/entryPoints/EntryProgram.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -618,13 +598,12 @@ h2 {
   padding: 10px;
   width: 70%;
   height: 35%;
-
 }
-
 
 /* css til 2 entry point */
 
 .ctaSpillesteder {
+  /* Kilde: https://www.colourbox.dk/billede/jazz-band-trompet-billede-4269124*/
   background-image: url(../img/entryPoints/EntrySpillesteder.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -655,6 +634,7 @@ h2 {
 
 /* css til 3 entrypoint */
 .ctaNyheder {
+  /* https://www.colourbox.dk/billede/saxofon-jazz-closeup-billede-12533847 */
   background-image: url(../img/entryPoints/entryNyheder.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -689,6 +669,7 @@ h2 {
 
 /* css til 4 entrypoint */
 .ctaPraktisk {
+  /* Kilde: https://www.colourbox.dk/billede/jazz-koncert-batteri-billede-10019338 */
   background-image: url(../img/entryPoints/EntryInformation.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -764,7 +745,6 @@ h2 {
   text-align: left;
   margin-left: 2rem;
 }
-
 
 .nyhederKnap {
   background-color: var(--orange);
@@ -916,7 +896,6 @@ iframe {
 .backgroundBeigeSponsor img {
   width: 70%;
 }
-
 
 .backgroundBeigeSponsor h2,
 ul,
